@@ -1,0 +1,322 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L nice_nano:nice_nano U1
+U 1 1 61973818
+P 6650 2650
+F 0 "U1" H 6650 3587 60  0000 C CNN
+F 1 "nice_nano" H 6650 3481 60  0000 C CNN
+F 2 "nice-nano-kicad-master:nice_nano" V 7700 150 60  0001 C CNN
+F 3 "" V 7700 150 60  0001 C CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 2300 0    50   Input ~ 0
+gnd
+Text GLabel 5950 2400 0    50   Input ~ 0
+gnd
+Text GLabel 7350 2200 2    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 619B7ECB
+P 1000 2050
+F 0 "SW1" H 1000 2305 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 2214 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1000 2050 60  0001 C CNN
+F 3 "" H 1000 2050 60  0000 C CNN
+	1    1000 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 2050 3    50   Input ~ 0
+gnd
+Text GLabel 700  2050 3    50   Input ~ 0
+Switch1
+$Comp
+L keyboard_parts:SW_PUSH SW2
+U 1 1 619BA6E6
+P 1800 2050
+F 0 "SW2" H 1800 2305 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 2214 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1800 2050 60  0001 C CNN
+F 3 "" H 1800 2050 60  0000 C CNN
+	1    1800 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 2050 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW3
+U 1 1 619BAF66
+P 2600 2050
+F 0 "SW3" H 2600 2305 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 2214 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 2600 2050 60  0001 C CNN
+F 3 "" H 2600 2050 60  0000 C CNN
+	1    2600 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 2050 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW4
+U 1 1 619BB102
+P 3400 2050
+F 0 "SW4" H 3400 2305 50  0000 C CNN
+F 1 "SW_PUSH" H 3400 2214 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 3400 2050 60  0001 C CNN
+F 3 "" H 3400 2050 60  0000 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 2050 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW5
+U 1 1 619BB5E6
+P 4200 2050
+F 0 "SW5" H 4200 2305 50  0000 C CNN
+F 1 "SW_PUSH" H 4200 2214 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 4200 2050 60  0001 C CNN
+F 3 "" H 4200 2050 60  0000 C CNN
+	1    4200 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 2050 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW6
+U 1 1 619BFA10
+P 1000 2700
+F 0 "SW6" H 1000 2955 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 2864 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1000 2700 60  0001 C CNN
+F 3 "" H 1000 2700 60  0000 C CNN
+	1    1000 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 2700 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW7
+U 1 1 619BFA18
+P 1800 2700
+F 0 "SW7" H 1800 2955 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 2864 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1800 2700 60  0001 C CNN
+F 3 "" H 1800 2700 60  0000 C CNN
+	1    1800 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 2700 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW8
+U 1 1 619BFA1F
+P 2600 2700
+F 0 "SW8" H 2600 2955 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 2864 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 2600 2700 60  0001 C CNN
+F 3 "" H 2600 2700 60  0000 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 2700 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW9
+U 1 1 619BFA26
+P 3400 2700
+F 0 "SW9" H 3400 2955 50  0000 C CNN
+F 1 "SW_PUSH" H 3400 2864 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 3400 2700 60  0001 C CNN
+F 3 "" H 3400 2700 60  0000 C CNN
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 2700 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW10
+U 1 1 619BFA2D
+P 4200 2700
+F 0 "SW10" H 4200 2955 50  0000 C CNN
+F 1 "SW_PUSH" H 4200 2864 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 4200 2700 60  0001 C CNN
+F 3 "" H 4200 2700 60  0000 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 2700 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW11
+U 1 1 619BFECA
+P 1000 3300
+F 0 "SW11" H 1000 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 3464 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1000 3300 60  0001 C CNN
+F 3 "" H 1000 3300 60  0000 C CNN
+	1    1000 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 3300 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW12
+U 1 1 619BFED2
+P 1800 3300
+F 0 "SW12" H 1800 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 3464 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 1800 3300 60  0001 C CNN
+F 3 "" H 1800 3300 60  0000 C CNN
+	1    1800 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 3300 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW13
+U 1 1 619BFED9
+P 2600 3300
+F 0 "SW13" H 2600 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 3464 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 2600 3300 60  0001 C CNN
+F 3 "" H 2600 3300 60  0000 C CNN
+	1    2600 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 3300 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW14
+U 1 1 619BFEE0
+P 3400 3300
+F 0 "SW14" H 3400 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 3400 3464 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 3400 3300 60  0001 C CNN
+F 3 "" H 3400 3300 60  0000 C CNN
+	1    3400 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 3300 3    50   Input ~ 0
+gnd
+$Comp
+L keyboard_parts:SW_PUSH SW15
+U 1 1 619BFEE7
+P 4200 3300
+F 0 "SW15" H 4200 3555 50  0000 C CNN
+F 1 "SW_PUSH" H 4200 3464 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350" H 4200 3300 60  0001 C CNN
+F 3 "" H 4200 3300 60  0000 C CNN
+	1    4200 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 3300 3    50   Input ~ 0
+gnd
+Text GLabel 1500 2050 3    50   Input ~ 0
+Switch2
+Text GLabel 2300 2050 3    50   Input ~ 0
+Switch3
+Text GLabel 3100 2050 3    50   Input ~ 0
+Switch4
+Text GLabel 3900 2050 3    50   Input ~ 0
+Switch5
+Text GLabel 700  2700 3    50   Input ~ 0
+Switch6
+Text GLabel 1500 2700 3    50   Input ~ 0
+Switch7
+Text GLabel 2300 2700 3    50   Input ~ 0
+Switch8
+Text GLabel 3100 2700 3    50   Input ~ 0
+Switch9
+Text GLabel 3900 2700 3    50   Input ~ 0
+Switch10
+Text GLabel 700  3300 3    50   Input ~ 0
+Switch11
+Text GLabel 1500 3300 3    50   Input ~ 0
+Switch12
+Text GLabel 2300 3300 3    50   Input ~ 0
+Switch13
+Text GLabel 3100 3300 3    50   Input ~ 0
+Switch14
+Text GLabel 3900 3300 3    50   Input ~ 0
+Switch15
+Text GLabel 5950 2500 0    50   Input ~ 0
+Switch1
+Text GLabel 5950 2600 0    50   Input ~ 0
+Switch2
+Text GLabel 5950 2700 0    50   Input ~ 0
+Switch3
+Text GLabel 5950 2800 0    50   Input ~ 0
+Switch4
+Text GLabel 5950 2900 0    50   Input ~ 0
+Switch5
+Text GLabel 5950 3000 0    50   Input ~ 0
+Switch6
+Text GLabel 5950 3100 0    50   Input ~ 0
+Switch7
+Text GLabel 5950 3200 0    50   Input ~ 0
+Switch8
+Text GLabel 7350 2800 2    50   Input ~ 0
+Switch9
+Text GLabel 7350 2900 2    50   Input ~ 0
+Switch10
+Text GLabel 7350 3000 2    50   Input ~ 0
+Switch11
+Text GLabel 7350 3100 2    50   Input ~ 0
+Switch12
+Text GLabel 7350 3200 2    50   Input ~ 0
+Switch13
+Text GLabel 6350 3700 3    50   Input ~ 0
+Switch15
+Text GLabel 6500 3700 3    50   Input ~ 0
+Switch14
+Text GLabel 7350 2100 2    50   Input ~ 0
+raw
+Text GLabel 7350 2300 2    50   Input ~ 0
+reset
+$Comp
+L keyboard_parts:KEYSW Reset1
+U 1 1 6197A9A7
+P 5100 2300
+F 0 "Reset1" H 5100 2533 60  0000 C CNN
+F 1 "KEYSW" H 5100 2200 60  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 5100 2300 60  0001 C CNN
+F 3 "" H 5100 2300 60  0000 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 2300 3    50   Input ~ 0
+reset
+Text GLabel 5400 2300 3    50   Input ~ 0
+gnd
+$Comp
+L Device:Battery BT1
+U 1 1 619990A3
+P 8950 2050
+F 0 "BT1" V 9195 2050 50  0000 C CNN
+F 1 "Battery" V 9104 2050 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" V 8950 2110 50  0001 C CNN
+F 3 "~" V 8950 2110 50  0001 C CNN
+	1    8950 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8750 2050 3    50   Input ~ 0
+raw
+Text GLabel 9150 2050 3    50   Input ~ 0
+gnd
+$EndSCHEMATC
