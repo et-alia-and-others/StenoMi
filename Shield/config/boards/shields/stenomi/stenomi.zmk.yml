@@ -1,0 +1,12 @@
+file_format: "1"
+id: stenomi
+name: StenoMi
+type: shield
+url:
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - stenomi_left
+  - stenomi_right

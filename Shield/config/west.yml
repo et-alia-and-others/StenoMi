@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: dnaq
+      url-base: https://github.com/dnaq
+  projects:
+    - name: zmk
+      remote: dnaq
+      revision: plover-hid-hog-attempt
+      import: app/west.yml
+  self:
+    path: config
